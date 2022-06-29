@@ -17,5 +17,14 @@
     "emitDeclarationOnly": true
   },
   "include": ["src/**/*"],
-  "exclude": ["**/*.spec.ts", "node_modules"]
+  "exclude": [
+    "**/*.test.ts",
+    "**/*.spec.ts",
+    "**/*.test.tsx",
+    "**/*.spec.tsx",
+    "**/*.stories.tsx",
+    "node_modules",
+    ".storybook/**/*",
+    "src/stories/**/*"
+  ]
 }
